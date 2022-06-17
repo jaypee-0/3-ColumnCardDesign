@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    background-color: hsl(0, 0%, 95%);
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    align-self: center;
+    margin: 10%;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.card{
+    height: 500px;
+    width: 300px;
+    min-width: 300px;
+    padding: 40px 45px;
+}
+
+#card-1 {
+    background-color: hsl(31, 77%, 52%);
+}
+
+#card-2 {
+    background-color: hsl(184, 100%, 22%);
+}
+
+#card-3 {
+    background-color: hsl(179, 100%, 13%);
+}
+main .card h1 {
+    color: hsl(0, 0%, 95%); 
+    text-transform: uppercase;
+    font-family: "Big Shoulders Display", cursive;
+    font-weight: 700;
+}
+main .card p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    line-height: 1.75;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+}
+
+.learn-more{
+
+    margin-top: 5rem;
+    cursor: pointer;
+    background-color: hsl(0, 0%, 95%);
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 700;
+    border: 0.2em solid hsl(0, 0%, 95%);
+
+    padding: 0.65rem 1.5rem;
+    border-radius: 2rem;
+
+}
+
+#card-1 .learn-more {
+    color: hsl(31, 77%, 52%);
+}
+
+#card-1 .learn-more:hover,
+#card-1 .learn-more:focus{
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(31, 77%, 52%);
+}
+
+#card-2 .learn-more {
+    color: hsl(184, 100%, 22%);
+}
+
+
+#card-2 .learn-more:hover,
+#card-2 .learn-more:focus{
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(184, 100%, 22%);
+}
+
+#card-3 .learn-more {
+    color: hsl(179, 100%, 13%);
+}
+
+#card-3 .learn-more:hover,
+#card-3 .learn-more:focus{
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(179, 100%, 13%);
+}
